@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tokopedia</title>
+    <style>
+        table, th, td {
+          border:1px solid black;
+        }
+        table.ex{
+            empty-cells: show;
+        }
+        </style>
+        <body>
+</head>
+<body>
+    <table class="ex">
+        <tr rowspan="2" colspan="2">
+          <th><b>Faktur komersial/commercial invoice</b></th>
+          <th colspan="3"><img src="Muhamad Ihsan - tokopedia.svg" alt="top"></th>
+          <th>
+            <p><b>Tanggal pembelian</b></p>
+            <p><form action="/action_page.php">
+                <label for="tanggal"></label>
+                <input type="date" id="tanggal" name="tanggal" max="9999-12-31"><br><br>
+            </form></p>
+          </th>
+        </tr>
+        <tr>
+            <th>Nama penjual : Muhamad Ihsan</th>
+            <th rowspan="2" colspan="2">
+                <p>Alamat penjual</p>
+                <p>Jl Jaya mangku Loa tebu RT 01</p>
+                <p>Kalimantan timur</p>
+            </th>
+            <th rowspan="2" colspan="2">
+                <p>Alamat pembeli</p>
+                <p>Jl Melati Kampung baru RT 17</p>
+                <p>Kalimantan timur</p>
+            </th>
+            
+            
+        </tr>
+        <tr>
+            <th>Nama pembeli : Miya Yoshitaka</th>
+        </tr>
+        <tr>
+            <th>Info produk</th>
+            <th>Jumlah</th>
+            <th>Harga satuan</th>
+            <th colspan="3">Total harga</th>
+        </tr>
+        <tr>
+            <th>Nintendo Gameboy Advance</th>
+            <form action="/action_page.php"> 
+                <th><label for="quantity">pcs</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="99"><br><br></th>
+            </form>
+            <th>Rp 799.000</th>
+            <th colspan="3">Rp 799.000</th>
+        </tr>
+        <tr>
+            <td rowspan="3" colspan="2"></td>
+            <td>Total belanja</td>
+            <td colspan="3">Rp 799.000</td>
+            
+        </tr>
+        <tr>
+            <td>Total Ongkos kirim</td>
+            <td colspan="3">Rp 99.000</td>
+        </tr>
+        <tr>
+            <td>Total tagihan</td>
+            <td colspan="3">Rp 898.000</td>
+        </tr>
+        <tr>
+            <td colspan="1">
+                <p>Kurir :</p>
+                <p>JNE</p>
+            </td>
+            <td colspan="4">
+                <p>Metode Pembayaran :</p>
+                <p>
+                    <form action="/action_page.php"></form>
+                    <input type="radio" id="bca" name="bayar" value="bca">
+                    <label for="bca">Bank Bca</label>
+                    <input type="radio" id="jago" name="bayar" value="jago">
+                    <label for="jago">Bank jago</label>
+                    <input type="radio" id="mandiri" name="bayar" value="mandiri">
+                    <label for="mandiri">Bank mandiri</label>
+                    <input type="radio" id="mega" name="bayar" value="mega">
+                    <label for="mega">Bank mega</label>
+                    <input type="radio" id="kaltimatra" name="bayar" value="kaltimatra">
+                    <label for="kaltimatra">Bank kaltimatra</label>
+                    
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="7">
+                <p>Nama : Muhamad Ihsan</p>
+                <p>Nim : 2209106099</p>
+                <p>Praktikum Web : Posttest 1</p>
+            </td>
+        </tr>
+      </table>
+</body>
+</html>
