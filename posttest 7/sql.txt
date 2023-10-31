@@ -1,0 +1,14 @@
+CREATE TABLE komen (
+	cid int(11) not null AUTO_INCREMENT PRIMARY KEY,
+    uid varchar(128) not null,
+    tanggal datetime not null,
+    pesan TEXT not null
+);
+
+
+CREATE TABLE komen (
+	cid int(11) not null AUTO_INCREMENT PRIMARY KEY,
+    nama varchar(50) not null,
+    tanggal datetime not null,
+    pesan TEXT not null
+);
